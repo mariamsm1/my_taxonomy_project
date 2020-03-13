@@ -6,10 +6,12 @@ taxonomy_proj.py is a python script to retrieve information regarding common nam
 
 python 3.7.4
 
+
 **Description:** 
 
 The program is run like: ./taxonomy_proj.py input database
 #The code is user interactive in which the user has to input the desired taxon ID.
+
 
 **Example on running the code:**
 
@@ -18,6 +20,7 @@ Get the data for this: wget ftp://ftp.ebi.ac.uk/pub/databases/taxonomy/taxonomy.
 ./taxonomy.py taxonomy.dat 
 --> RUN
 --> INPUT DESIRED TAXON ID (e.g. 9606) 
+
 
 **PROCEDURE:** 
 
@@ -33,6 +36,7 @@ way, the program is managing to find the parent ID of each previous ID in order
 to get the full lineage of the species. Common name, GC ID, MGC ID were extracted
 easily for each taxon ID by using the nested dictionary syntax:
 "variable = myDict[key][innerkey]"
+
 
 **Example of output:**
 
