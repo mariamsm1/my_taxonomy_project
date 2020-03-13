@@ -37,11 +37,17 @@ easily for each taxon ID by using the nested dictionary syntax:
 **Example of output:**
 
 "taxId":9606
+
 "ScientificName": Homo sapiens
+
 "CommonName": human
+
 "rank": species
+
 "lineage": cellular organisms; Eukaryota; Opisthokonta; Metazoa; Eumetazoa; Bilateria; Deuterostomia; Chordata; Craniata; Vertebrata; Gnathostomata; Teleostomi; Euteleostomi; Sarcopterygii; Dipnotetrapodomorpha; Tetrapoda; Amniota; Mammalia; Theria; Eutheria; Boreoeutheria; Euarchontoglires; Primates; Haplorrhini; Simiiformes; Catarrhini; Hominoidea; Hominidae; Homininae; Homo
+
 "GeneticCode": 1
+
 "mitochondrialGeneticCode": 2
 
 The script outputs to the terminal so if you want to create an output file for each run, add to the script "open("my_output", "w") as out" and in the print statement add "file = out" . Run the program like ./taxonomy.py taxonomy.dat my_output
