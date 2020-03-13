@@ -50,4 +50,5 @@ easily for each taxon ID by using the nested dictionary syntax:
 
 "mitochondrialGeneticCode": 2
 
-The script outputs to the terminal so if you want to create an output file for each run, add to the script "open("my_output", "w") as out" and in the print statement add "file = out" . Run the program like ./taxonomy.py taxonomy.dat my_output
+
+**The script outputs to the terminal so if you want to create an output file for each run, add to the script "open("my_output", "w") as out" and in the print statement add "file = out" . Run the program like ./taxonomy.py taxonomy.dat my_output**
