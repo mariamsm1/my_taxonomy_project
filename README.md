@@ -3,10 +3,10 @@
 taxonomy_proj.py is a python script to retrieve information regarding common name, scientific name, rank, genetic code, mitochondrial genetic code, and lineage for a particular input taxon ID.
 
 **Dependecies:**
-python 3.7.4
+\python 3.7.4
 
 **Description:** 
-The program is run like: ./taxonomy_proj.py input database
+\The program is run like: ./taxonomy_proj.py input database
 #The code is user interactive in which the user has to input the desired taxon ID.
 
 **Example on running the code:**
